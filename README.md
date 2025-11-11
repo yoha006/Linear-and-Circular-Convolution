@@ -10,7 +10,7 @@ PC installed with SCILAB.
 ## PROGRAM (Linear Convolution): 
 
 // Linear Convolution
-
+```
 
 x = input("Enter x(n) as a vector, e.g., [1 2 1 2]: ");
 h = input("Enter h(n) as a vector, e.g., [1 1]: ");
@@ -49,9 +49,9 @@ subplot(3,1,3);
 n3 = 0:Ny-1;
 plot2d3(n3, y);
 xtitle("y(n) = x(n) * h(n)");
-
+```
 ## PROGRAM (Circular Convolution): 
-
+```
 // Circular Convolution
 
 
@@ -98,6 +98,7 @@ xtitle("Input Sequence h[n]");
 subplot(3,1,3);
 plot2d3(0:N-1, y_circ);
 xtitle("Circular Convolution y[n]");
+```
 
 ## OUTPUT (Linear Convolution): 
 <img width="914" height="714" alt="image" src="https://github.com/user-attachments/assets/917549db-5e2d-4c18-913c-2112b23f26c0" />
